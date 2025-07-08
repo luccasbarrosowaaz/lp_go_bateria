@@ -41,7 +41,7 @@ function Contact() {
               <h3 className="text-lg font-semibold mb-4">WhatsApp</h3>
               <a
                 id="whatsapp_button"
-                href="https://wa.me/551333797500?text=Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20bateria.%20Voc%C3%AAs%20podem%20me%20ajudar%3F"
+                href="https://wa.me/5513996636009?text=Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20bateria.%20Voc%C3%AAs%20podem%20me%20ajudar%3F"
                 target="_blank"
                 style={{
                   boxShadow:
