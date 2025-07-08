@@ -1,16 +1,19 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
+import Hero from "./Sections/Hero";
+import ButtonsFixed from "./components/ButtonsFixed";
+import About from "./Sections/About";
+import Contact from "./Sections/Contact";
 
 function App() {
-
-
   return (
     <>
-     <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+      <Hero />
+      <ButtonsFixed />
+      <About />
+      <Contact />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
