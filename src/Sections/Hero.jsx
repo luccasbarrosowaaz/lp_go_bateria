@@ -35,6 +35,10 @@ function Hero() {
               </div>
             </div>
           </div>
+           <h1 className="text-white font-semibold text-center md:text-start text-xl md:text-3xl mb-4">
+            Bateria para Carro em{" "}
+            <span className="text-[#b99921] font-bold">São Paulo</span>!
+          </h1>
           <h1 className="text-white font-semibold text-center md:text-start text-xl md:text-3xl mb-4">
             A Bateria Falhou? Chegamos Rápido em até{" "}
             <span className="text-[#b99921] font-bold">45 Min</span>!
