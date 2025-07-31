@@ -41,7 +41,7 @@ function Contact() {
               <h3 className="text-lg font-semibold mb-4">WhatsApp</h3>
               <a
                 id="whatsapp_button"
-                href="https://wa.me/5513996636009?text=Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20bateria.%20Voc%C3%AAs%20podem%20me%20ajudar%3F"
+                href="https://api.whatsapp.com/send/?phone=5511968301193&text=Gostaria+de+informa%C3%A7%C3%B5es+sobre+bateria.+Voc%C3%AAs+podem+me+ajudar%3F&type=phone_number&app_absent=0"
                 target="_blank"
                 style={{
                   boxShadow:
@@ -59,7 +59,7 @@ function Contact() {
               <h3 className="text-lg font-semibold mb-4">Telefone</h3>
               <a
                 id="trackfone_button"
-                href="tel:+551333797500"
+                href="tel:+551146733100"
                 style={{
                   boxShadow:
                     "-9px -1px 20px 10px rgba(185, 153, 33, 0.4), 0px 23px 133px rgba(185, 153, 33, 0.4)",
@@ -76,16 +76,15 @@ function Contact() {
 
           <div className="flex items-center flex-col justify-center mt-12 mb-[9rem]">
             <a
-              href="https://www.google.com/maps?q=Praia+Grande,+SP"
+              href="https://www.google.com/maps?q=sao+paulo,+SP"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 flex-col md:flex-row text-center"
             >
               <FaLocationPin />
-              <span>Praia Grande - SP CNPJ 38.409.938/0002-13</span>
+              <span>São Paulo - SP CNPJ 60.730.292/0001-40 </span>
             </a>
 
-            <img src={grupo} alt="Logo Grupo AM" className="mt-8" />
           </div>
         </div>
       </div>
