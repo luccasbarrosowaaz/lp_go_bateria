@@ -104,7 +104,7 @@ function About() {
           </div>
           <a
             id="whatsapp_button"
-            href="https://wa.me/5513996636009?text=Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20bateria.%20Voc%C3%AAs%20podem%20me%20ajudar%3F"
+            href="https://api.whatsapp.com/send/?phone=5511968301193&text=Gostaria+de+informa%C3%A7%C3%B5es+sobre+bateria.+Voc%C3%AAs+podem+me+ajudar%3F&type=phone_number&app_absent=0"
             target="_blank"
             style={{
               boxShadow:
